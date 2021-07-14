@@ -1,0 +1,165 @@
+html,
+body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    margin: 0 auto;
+    background: #e1decbbb;
+    text-align : center;
+    position:fixed;
+    z-index: 1;
+    
+}
+
+ .headderimg{
+          width: 160px;
+          height: 73px;
+          
+    animation: zoomIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+ }
+
+ marquee{
+  margin-top: 80px;
+}
+  
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+          
+              
+  
+  
+
+main {
+   width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: #fff;
+}
+.img01{
+    width: 80%;
+    margin-top: 37px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 1px;
+    position: relative; 
+}
+
+.link01{
+       color: rgba(167, 167, 167, 0.658);
+       margin:0 145px ;
+      
+}
+
+
+h2{
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+
+.menu {
+    width: 80%;
+    height: 147vh;
+    margin: 0 auto;
+    background: #fefefe;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu__item {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    background: #f0f0f0;
+    display:flex;
+    flex-direction: row;
+}
+
+.summer a{
+  width: 100%;
+  height: 100%;
+  display: block;
+    position: relative;
+    
+}
+.summer a:hover .caption-summer{
+  opacity:1;
+  
+}
+
+
+.caption-summer{
+
+  font-size: 35px;
+  font-family: Train One;
+  font-weight: lighter;
+   text-align: center;
+   color: #fff;
+   margin: 0;
+    position: absolute;
+    top: 0;
+     background: rgba(0, 0, 0, 0.397);
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    opacity: 0;
+    transition:all 0.6s ease;
+    align-items: center;
+    text-align: center;
+    line-height: 145px;
+
+    
+}
+.caption-summer span{
+  color: rgb(255,208,0);
+  overflow: hidden;
+  opacity: 1;
+  transition:all 0.6s ease;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+  .link02{
+  
+    color: rgba(167, 167, 167, 0.658);
+    font-size: 11px;
+    margin-top: 0;
+    
+  }
+  
+  .camp a{
+    width: 100%;
+    height: 100%;
+    display: block;
+      position: relative;
+      
+  }
+  .camp a:hover .caption-summer{
+    opacity:1;
+    
+  }
+
+
+footer{
+    width: 100%;
+    height: 40vh;
+    margin-top:200px ;
+    background: rgb(53, 53, 53);
+}
